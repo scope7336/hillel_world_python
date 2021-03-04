@@ -1,7 +1,8 @@
-""""s = input()
-s.find("ch")
-for el in s:
-   s.find (0,-1)
-print(el)"""
-numbers = [ n for n in range (0,)]
-print( numbers )
+s = input("input your string: ")
+inputSym = input("input what find:")
+start = -1
+while True:
+   start = s.find(inputSym, start +1)
+   if start == -1:
+      break
+   print(start)
